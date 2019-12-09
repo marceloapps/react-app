@@ -30,8 +30,8 @@ export class TweetsHashtag extends Component {
                 <tbody>
                     {hashtags.map(hashtags =>
                         <tr>
-                            <td>key={hashtags.Hashtag}></td>
-                            <td>key={hashtags.Language}></td>
+                            <td>{hashtags.Hashtag}</td>
+                            <td>{hashtags.Language}</td>
                             <td>{hashtags.Count}</td>
                         </tr>
                     )}

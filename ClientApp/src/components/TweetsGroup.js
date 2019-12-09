@@ -29,7 +29,7 @@ export class TweetsGroup extends Component {
                 <tbody>
                     {hours.map(hours =>
                         <tr>
-                            <td>key={hours.Hora}></td>
+                            <td>{hours.Hora}</td>
                             <td>{hours.Count}</td>
                         </tr>
                     )}

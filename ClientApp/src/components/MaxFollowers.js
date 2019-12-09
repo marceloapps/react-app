@@ -29,7 +29,7 @@ export class MaxFollowers extends Component {
                 <tbody>
                     {users.map(users =>
                         <tr>
-                            <td>key={users.User}></td>
+                            <td>{users.User}</td>
                             <td>{users.Followers}</td>
                         </tr>
                     )}
